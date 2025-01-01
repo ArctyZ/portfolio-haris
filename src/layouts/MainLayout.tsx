@@ -4,7 +4,7 @@ import ParticlesBackground from "../components/ParticlesBackground";
 
 export default function MainLayout() {
     return (
-        <div className="w-[40%] m-auto">
+        <div className="w-[60%] m-auto">
             <ParticlesBackground />
             <Header />
             <Outlet />

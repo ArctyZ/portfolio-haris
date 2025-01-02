@@ -7,4 +7,35 @@
     font-family: "Poppins", serif;
 }
 
+.glossy::before{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px #fff;
+    filter: blur(1px);
+    opacity: .6;
+    top: -30px;
+    transition: 1.2s;
+    transform: rotate(-20deg) translateX(-60px);
+}
 
+.glossy:hover:before{
+    transform: rotate(-20deg) translate(140px,70px);
+}
+
+.uppp:hover span:nth-child(1){
+    translate:0 -42px;
+    transition: ease-in-out .5s;
+    
+}
+
+.uppp span:nth-child(2){
+    translate:0 42px;
+}
+.uppp:hover span:nth-child(2){
+    translate:0 -26px;
+    transition: ease-in-out .5s;
+
+}

@@ -1,5 +1,7 @@
 import { Link } from "react-router";
 import { FiGithub, FiLinkedin, FiFileText } from "react-icons/fi";
+import { FcOk } from "react-icons/fc";
+import { IoIosMail } from "react-icons/io";
 
 export default function UserDetails() {
   return (
@@ -15,9 +17,9 @@ export default function UserDetails() {
           </div>
           <div className="">
             <h2 className="font-semibold text-lg">Haris Baraja</h2>
-            < div className="flex flex-col relative w-40 h-6 border-red-700 border-2 overflow-hidden cursor-pointer uppp">
-              <span className="">Available for work</span>
-              <span className="">Reach out</span>
+            < div className="flex flex-col relative w-50 h-6  overflow-hidden cursor-pointer uppp">
+              <span className="flex gap-1 items-center"><FcOk size={15} />Available for work</span>
+              <span className="flex gap-1 items-center"><IoIosMail size={20} /><Link  to="mailto:harisbaraja56@gmail.com">Reach out</Link></span>
             </div>
           </div>
         </div>

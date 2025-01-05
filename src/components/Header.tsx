@@ -1,6 +1,5 @@
 'use client'
 import { Link } from "react-router";
-import { FaMoon } from "react-icons/fa";
 import {motion} from "framer-motion";
 import { useState, useRef } from "react";
 export default function Header() {
@@ -15,7 +14,7 @@ export default function Header() {
   return (
     <div className="flex items-center justify-between pt-4 mt-5 bg-transparent">
         <div>
-            <h1 className="text-xl md:text-2xl font-semibold tracking-widest text-white shine"><Link to={"/"}>Haris</Link></h1>
+            <h1 className="text-xl md:text-3xl font-semibold tracking-widest text-white shine"><Link to={"/"}>Haris</Link></h1>
         </div>
         <div className="">
             <ul
@@ -25,7 +24,7 @@ export default function Header() {
 
                 <Tab setPosition={setPosition}><Link to={"/about"}>About</Link></Tab>
 
-                <li><FaMoon/></li>
+                
                 <motion.li
                 animate={{...position}}
                 className="absolute z-0 rounded-md bg-white/10 h-full"/>

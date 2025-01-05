@@ -25,6 +25,11 @@
     transform: rotate(-20deg) translate(140px,70px);
 }
 
+.uppp span:nth-child(1){
+    translate:0 0px;
+    transition: ease-in-out .5s;
+    
+}
 .uppp:hover span:nth-child(1){
     translate:0 -42px;
     transition: ease-in-out .5s;
@@ -33,6 +38,7 @@
 
 .uppp span:nth-child(2){
     translate:0 42px;
+    transition: ease-in-out .5s;
 }
 .uppp:hover span:nth-child(2){
     translate:0 -26px;

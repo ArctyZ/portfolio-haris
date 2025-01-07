@@ -45,3 +45,12 @@
     transition: ease-in-out .5s;
 
 }
+
+.shine{
+    transition: ease-in-out .5s;
+}
+
+.shine:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+}

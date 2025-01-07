@@ -18,7 +18,7 @@ export default function ProjectCard({
   demo,
 }: CardProps) {
   return (
-    <div className="card card-compact mt-5">
+    <div className="card card-compact mt-5 hover:scale-105 transition ease-in-out duration-500">
       {/* Image Thumbnail */}
       <figure>
         <img src={image} alt={title} />

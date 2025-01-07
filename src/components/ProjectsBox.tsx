@@ -26,7 +26,6 @@ server.`,
 export default function ProjectsBox() {
   return (
     <div>
-      <h2 className="font-bold text-xl">Projects</h2>
       <div className="grid gird-cols-1 md:grid-cols-2 gap-4">
         {projectsDb.map((item, index) => (
           <ProjectCard key={index} {...item} />

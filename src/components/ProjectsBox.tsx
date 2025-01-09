@@ -11,14 +11,11 @@ formats of Images, Videos and Audios from one format to another.`,
     demo: "https://filefusion-gamma.vercel.app/",
   },
   {
-    title: "FileFusion",
-    description: `FileFusion is a free & unlimited multimedia converter app that can convert many
-formats of Images, Videos and Audios from one format to another. Built using
-FFmpeg and WASM make this app can convert the media without relying on any
-server.`,
+    title: "Personal Portfolio",
+    description: `My own Personal Portfolio`,
     image: "./filefusion_thumb.png",
-    tech: ["Next.js", "TailwindCSS", "Typescript", "FFMpeg", "WASM"],
-    github: "https://github.com/ArctyZ/filefusion-converter",
+    tech: ["React", "TailwindCSS", "Typescript"],
+    github: "https://github.com/ArctyZ/portfolio-haris",
     demo: "https://filefusion-gamma.vercel.app/",
   },
 ];

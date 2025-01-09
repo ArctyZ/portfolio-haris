@@ -10,7 +10,7 @@ export default function About() {
             While I may not have formal work experience yet, I have developed a strong foundation in web development trhough self-learning and hands-on projects.
             My skills include front-end technologies like HTML, CSS, JavaScript, ReactJs, and back-end frameworks like NodeJs, Express and MySQL.
             <br /> <br />
-            In my free time, I enjoy learning about computers in general, game development and learning new things.
+            In my free time, I enjoy learning about computers in general, game development and learning others new things.
             <br /> <br />
             I'm exited to connect with others in the tech community and contribute to impactful projects. Lets build something amazing together! 
             <br /><br />

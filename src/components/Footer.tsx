@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 export default function Footer() {
   return (
-    <div className="mb-5 p-2">
+    <div className="mb-5 p-2 mt-5">
         {/* Contacts */}
         <div className="flex flex-row items-center gap-4">
             <Link to={"https://github.com/ArctyZ"}><div className="flex gap-2 items-center text-slate-400 font-medium"><FaGithub size={20}/><span>Github</span></div></Link>

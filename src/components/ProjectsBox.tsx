@@ -18,6 +18,14 @@ formats of Images, Videos and Audios from one format to another.`,
     github: "https://github.com/ArctyZ/portfolio-haris",
     demo: "https://filefusion-gamma.vercel.app/",
   },
+  {
+    title: "Fooders",
+    description: `A Beautiful & Simple Restaurant landing page.`,
+    image: "./fooder_thumb.png",
+    tech: ["React", "TailwindCSS", "Typescript","ShadCn"],
+    github: "https://github.com/ArctyZ/fooders",
+    demo: "https://fooders-two.vercel.app/",
+  },
 ];
 
 export default function ProjectsBox() {

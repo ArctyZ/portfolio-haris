@@ -13,10 +13,10 @@ formats of Images, Videos and Audios from one format to another.`,
   {
     title: "Personal Portfolio",
     description: `My own Personal Portfolio`,
-    image: "./filefusion_thumb.png",
+    image: "./portfolio.png",
     tech: ["React", "TailwindCSS", "Typescript"],
     github: "https://github.com/ArctyZ/portfolio-haris",
-    demo: "https://filefusion-gamma.vercel.app/",
+    demo: "#",
   },
   {
     title: "Fooders",
@@ -25,6 +25,14 @@ formats of Images, Videos and Audios from one format to another.`,
     tech: ["React", "TailwindCSS", "Typescript","ShadCn"],
     github: "https://github.com/ArctyZ/fooders",
     demo: "https://fooders-two.vercel.app/",
+  },
+  {
+    title: "Hemart",
+    description: `Hemart is an Online Groceries web-app crafted to enhance shopping experience.`,
+    image: "./hemart.png",
+    tech: ["Next.js", "TailwindCSS", "Typescript","Express", "Express", "MySql"],
+    github: "https://github.com/faizalnursaori/finpro_jcwdol014",
+    demo: "#",
   },
 ];
 

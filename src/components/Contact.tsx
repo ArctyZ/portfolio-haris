@@ -4,11 +4,11 @@ import { FiGithub, FiLinkedin, FiFileText } from "react-icons/fi";
 
 export default function Contact() {
   return (
-    <div className=" relative border-[1px] border-white w-[75%] m-auto">
+    <div className=" relative border-[1px] border-white md:w-[75%] m-auto">
       <h1 className="absolute -top-4 left-2 text-white text-xl bg-black">
         Information
       </h1>
-      <div className="flex md:flex-row flex-col  gap-5 p-5 w-full items-center justify-between">
+      <div className="grid md:grid-cols-4 grid-cols-2 gap-5 p-5 w-full justify-items-center items-center content-center">
         <div className="shine">
           <Link to="mailto:harisbaraja56@gmail.com" className="flex flex-col gap-2 items-center p-3 " target="_blank">
             <IoIosMail size={50} />
@@ -28,7 +28,7 @@ export default function Contact() {
           </Link>
         </div>
         <div className="shine">
-          <Link target="_blank" to="https://drive.google.com/file/d/1dZVQxh5NIaw4kUcxnUgY1xL_hBR79Nge/view?usp=drive_link" className="flex flex-col gap-2 items-center p-3">
+          <Link target="_blank" to="https://drive.google.com/file/d/1u03c4U4Of1aqPioWhuTZmWG5f2Rl6Lwi/view?usp=drive_link" className="flex flex-col gap-2 items-center p-3">
             <FiFileText size={50} />
             <span className="text-xl">Resume</span>
           </Link>

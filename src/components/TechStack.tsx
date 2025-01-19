@@ -14,7 +14,7 @@ export default function TechStack() {
   return (
     <div className="flex flex-col gap-3">
       <h2 className="font-bold text-xl ">Skills</h2>
-      <div className="grid lg:grid-cols-6 grid-cols-4 sm:grid-rows-2 md:grid-row-2 w-full gap-2 text-xs md:text-md">
+      <div className="grid lg:grid-cols-6 grid-cols-2 sm:grid-rows-2 md:grid-row-2 w-full gap-2 text-xs md:text-md">
         <div className="gap-1 border-[1px] border-white rounded-md p-2 bg-transparent items-center flex flex-col w-26">
           <FaHtml5 size={25} />
           <span className="font-semibold">HTML</span>

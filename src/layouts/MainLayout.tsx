@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 export default function MainLayout() {
     return (
-        <div className="w-[60%] m-auto text-white">
+        <div className="md:w-[60%] w-[80%] m-auto text-white">
             <ParticlesBackground />
             <Header />
             <Outlet />

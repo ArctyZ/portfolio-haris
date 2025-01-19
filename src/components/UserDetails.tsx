@@ -19,7 +19,7 @@ export default function UserDetails() {
             <h2 className="font-semibold md:text-lg text-sm">Haris Baraja</h2>
             < div className="flex flex-col relative w-50 h-6  overflow-hidden cursor-pointer uppp ">
               <span className="flex gap-1 items-center text-sm md:text-md"><FcOk size={15} />Available for work</span>
-              <span className=" gap-1 items-center hidden md:flex"><IoIosMail size={20} /><Link  to="mailto:harisbaraja56@gmail.com">Reach out</Link></span>
+              <span className=" gap-1 items-center flex text-sm md:text-md"><IoIosMail size={20} /><Link  to="mailto:harisbaraja56@gmail.com">Reach out</Link></span>
             </div>
           </div>
         </div>

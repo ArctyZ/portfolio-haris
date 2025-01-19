@@ -11,8 +11,8 @@ export default function UserDetails() {
         {/* Avatar and name */}
         <div className="flex items-center gap-4">
           <div className="avatar">
-            <div className="rounded-full w-12 h-12">
-              <img src="https://placeimg.com/192/192/people" alt="image" />
+            <div className="rounded-full w-20 h-auto"> 
+              <img src="./photo_port.jpg" alt="image" className="object-cover ring-2 ring-white size-full"/>
             </div>
           </div>
           <div className="">
